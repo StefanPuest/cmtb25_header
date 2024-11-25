@@ -31,8 +31,8 @@ let KEYWORD_REPULSION_RADIUS_MULTIPLIER;
 // let canvasHeight = window.innerHeight;
 
 // HERE YOU CAN CHANGE THE RESOLUTION. MOST LIKELY ALSO THE BLUR VALUES NEED TO BE ADJUSTED SINCE BLUR IS RESOLUTION DEPENDENT
-let canvasWidth = 1920;
-let canvasHeight = 1080;
+let canvasWidth = 2560;
+let canvasHeight = 1319;
 let BUFFER_WIDTH = canvasWidth;
 let BUFFER_HEIGHT = canvasHeight;
 
@@ -74,11 +74,8 @@ function computeSizesAndScales() {
 // Main text and keywords
 const MAIN_TEXT = "CMTB25";
 const KEYWORDS = [
-  "AI", "VR", "Ethics", "Data", "Health",
-  "Social Media", "Privacy", "E-learning",
-  "Robotics", "Blockchain", "Quantum Computing", "Cybersecurity",
-  "Machine Learning", "Big Data", "Cloud Computing", "Augmented Reality",
-  "Internet of Things", "5G", "Biotechnology"
+  "AI & Learning", "E-Health", "Education", "Risk Mitigation", "Cyber Security",
+  "Risk Management", "Entrepreneurship", "Research"
 ];
 
 // Display options
